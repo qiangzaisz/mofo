@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_scan"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="扫码开锁" />
+        <item
+            android:id="@+id/nav_bluetooth"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="蓝牙开锁" />
+        <item
+            android:id="@+id/nav_disconnect"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="断开蓝牙" />
+        <item
+            android:id="@+id/nav_read"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="读取蓝牙数据" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_unlock"
+                android:icon="@drawable/ic_menu_share"
+                android:title="开锁指令" />
+            <item
+                android:id="@+id/nav_param"
+                android:icon="@drawable/ic_menu_send"
+                android:title="参数配置" />
+        </menu>
+    </item>
+
+</menu>
